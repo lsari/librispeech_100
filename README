@@ -13,7 +13,7 @@ cd work_dir
 # This will generate some data csv files, and extract some features
 python prep_data.py data_dir/LibriSpeech
 
-# To write an train_args.json file
+# To write a train_args.json file
 python template_for_args.py
 
 # Train and test a dummy model
