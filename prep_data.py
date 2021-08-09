@@ -99,7 +99,6 @@ def extract_spect_mvn(audio_path):
     std = np.std(spect, 1, keepdims=True)
     spect -= mean
     spect /= std
-    print(spect.shape)
     return spect.T, duration
 
 
